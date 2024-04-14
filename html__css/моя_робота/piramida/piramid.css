@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popping', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+
+.top{
+    position: relative;
+    background-image: url(./img/img1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+	height: 1200px;
+ }
+ .top__btn{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 60px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 24px;
+    border: none;
+    color:#fff;
+ }
+
+ .top2{
+    background-image: url(./img/img3.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+	height: 1200px;
+ }
+header nav {
+    margin-left: 100px;
+}
+header {
+    position: fixed;
+    top: 50px;
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center; /* Центрирование по вертикали */
+    padding-left: 580px;
+    z-index:1 ;
+}
+
+header .logo{
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 2px;
+    font-weight: 900;
+    color: #ffffff;
+    transition: .5s;
+    margin-left: -100px;
+}
+
+header .logo:hover{
+    transform: scale(1.2);
+}
+
+header nav ul li {
+    position: relative;
+    float: left;
+}
+
+
+header nav ul li a {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    transition: .5s;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 10px;
+    left: 10;
+    height: 100%;
+    width: 150px; /* Ширина боковой панели */
+    z-index: 1; /* Установка z-index для уверенности, что панель поверх других элементов */
+    padding-top: 20px; /* Отступ сверху */
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #ffffff;
+    transition: .5s;
+    padding: 10px;
+}
+
+.sidebar ul li:hover{
+    transform: scale(1.2);
+}
+
+.content {
+    margin-left: 250px; /* Сдвиг контента вправо, чтобы учитывать ширину боковой панели */
+    padding: 20px;
+}
+
+
+.wrapper {
+    width: 500px;
+    left: 50px;
+    z-index: 2;
+    color: #fff; 
+    border: none;
+    outline: none;
+    padding: 20px 10px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.input-box {
+    position: relative; 
+    margin-top: 15px; 
+    right: 3px;
+    left: 330px;
+    top: 5px;
+}
+
+.input-box input {
+    width: calc(100% - 10px); /* Учитываем ширину иконки */
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(230, 205, 93);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #807474;
+    padding: 20px 50px 20px 50px; /* Увеличить отступ справа, чтобы было место для иконки */
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+
+
+
+bg-side .content-text {
+    position: absolute;
+    z-index: 100;
+}
+
+
+
+.content-text { 
+    position: absolute; /* Позиционируем блок абсолютно */
+    height: 20%;
+    width: 100%; 
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+.content-text .place h1, 
+.content-text .country h2 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.content-text .place h1 {
+    font-size: 60px;
+    margin-right: -80px;
+    letter-spacing: 150px;
+}
+
+.content-text .country h2 {
+    font-size: 50px;
+    letter-spacing: 50px;
+    margin-top: 50px;
+
+}
+
+
+.line{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
+    height: 2px;
+    background: white;
+}
+
+
+
+
+.box{
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+
+}
+.text{
+    width: 50%;
+    padding-right: 30px;
+    
+}
+
+
+.img{
+    width: -80%;
+    margin-top: 55px;
+    margin-right: 50px;
+    margin-bottom: -10px;
+}
+
+.img img{
+    width: 100%; /* Чтобы изображение занимало всю ширину блока */
+    border-radius: 8px;
+    box-shadow: 0 5px 10px; /* Уменьшаем отступ снизу */
+}
+.text{
+    text-align: right; /* Это выравнивает текст по правому краю */
+    text-emphasis: none;
+    color: #ffffff;
+    border-radius: 8px; 
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 70%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 32px; 
+    width: -50%;
+
+  }
+
+  .separator {
+    border: none;
+    height: 1px;
+    margin-bottom: 3px;
+    background-color: rgba(255, 255, 255, 0.5); /* Прозрачный цвет линии */
+    margin: 20px 10; /* Расстояние от линии до текста */
+}

@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body{
+    background: url(img1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 2000px;
+}
+
+
+.container_row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 1140px;
+}
+
+
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    background: transparent;
+}
+
+.header_left{
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+    font-weight: 500px
+
+}
+.header_right{
+    margin: 12px 0;
+    width: 0px;
+    height: 32px;
+    color: #757677;
+	display: flex;
+	align-items: center;
+    font-weight: 500px
+}
+.btn_nav {
+    display: flex;
+    align-items: center;
+    
+}
+.btn_nav img {
+    width: 20px;
+    height: 20px;
+}
+.btn_nav p{
+    color: #ffffff;
+    margin-left: 4px;
+    font-weight: 500px
+
+}
+
+.logo_block{
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+}
+
+
+.header_nav{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.header_nav a {
+    text-decoration: none;
+    margin-right: 16px;
+}   
+.social_name{
+    margin-left: 5px;
+    font-weight: 500px;
+}
+
+
+.social_photo{
+    border-radius: 100%;
+	width: 28px;
+	height: 28px;
+    margin-left: 10px; /* Расстояние слева от имени */
+    
+
+}
+.pyramid_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 24px; /* Размер шрифта, если нужно */
+}
+
+.under_pyramid {
+    position: absolute;
+
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+    
+.main {
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center; /* Центрирование по вертикали */
+    height: 700px;
+}
