@@ -30,9 +30,28 @@
     border: none;
     color:#fff;
  }
+ .top__btn2{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: -1060px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 24px;
+    border: none;
+    color:#fff;
+
+ }
 
  .top2{
     background-image: url(./img/img3.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+	height: 1200px;
+ }
+ .top3{
+    background-image: url(img/img5.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -171,7 +190,10 @@ bg-side .content-text {
     z-index: 100;
 }
 
-
+.scroll {
+    height: 200px; /* Высота блока */
+    overflow-y: scroll; /* Включаем вертикальную прокрутку */
+  }
 
 .content-text { 
     position: absolute; /* Позиционируем блок абсолютно */
@@ -266,4 +288,73 @@ bg-side .content-text {
     margin-bottom: 3px;
     background-color: rgba(255, 255, 255, 0.5); /* Прозрачный цвет линии */
     margin: 20px 10; /* Расстояние от линии до текста */
+}
+
+
+
+.column-number__left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: left;
+    width: 700px;
+    height: 600px;
+}
+.fhoto-left  img{
+    margin-top: 100px;
+    height: 300px;
+    width: 100%;
+    border-radius: 50px;
+
+}
+.abuut {
+    margin-top: 10px;
+
+}
+.information{
+    margin-top: 10px;
+    padding: 20px; /* Добавляем немного отступа, чтобы контент не касался краев */
+    border-radius: 30px; /* Для закругления углов, если нужно */
+    backdrop-filter: blur(10px); /* Применяем размытие на задний фон */
+    box-shadow: 0 0 5px 1px; /* Уменьшаем отступ снизу */
+
+    
+
+}
+.cocolumn__number__center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+    margin: 0 auto; /* Центрируем по горизонтали */
+    margin-top: -500px; /* Добавляем верхний отступ по вашему желанию */
+}
+
+.fhoto-centert  img{
+    margin-top: 50px;
+    height: 300px;
+    width: 100%;
+    border-radius: 50px;
+
+}
+.about {
+    margin-top: 10px;
+}
+.cocolumn__number__right {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: right;
+    width: 500px;
+    height: 600px;
+    margin: -690px 1300px 0; /* Центрируем по горизонтали */
+
+}
+.fhoto-right img{
+    margin-top: 100px;
+    height: 300px;
+    width: 100%;
+    border-radius: 50px;
 }
