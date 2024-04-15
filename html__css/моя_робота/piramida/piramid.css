@@ -13,7 +13,7 @@
 
 .top{
     position: relative;
-    background-image: url(./img/img1.jpg);
+    background-image: url(./img/bg1.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -31,10 +31,10 @@
     color:#fff;
  }
  .top__btn2{
+    bottom: 500px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    margin-bottom: -1060px;
     background-color: transparent;
     cursor: pointer;
     font-size: 24px;
@@ -44,14 +44,15 @@
  }
 
  .top2{
-    background-image: url(./img/img3.jpg);
+    position: relative;
+    background-image: url(./img/bg2.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
 	height: 1200px;
  }
  .top3{
-    background-image: url(img/img5.jpg);
+    background-image: url(img/bg3.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -309,6 +310,7 @@ bg-side .content-text {
 }
 .abuut {
     margin-top: 10px;
+    
 
 }
 .information{
@@ -317,7 +319,7 @@ bg-side .content-text {
     border-radius: 30px; /* Для закругления углов, если нужно */
     backdrop-filter: blur(10px); /* Применяем размытие на задний фон */
     box-shadow: 0 0 5px 1px; /* Уменьшаем отступ снизу */
-
+    width: 400px;
     
 
 }
@@ -341,6 +343,7 @@ bg-side .content-text {
 }
 .about {
     margin-top: 10px;
+    
 }
 .cocolumn__number__right {
     display: flex;
@@ -358,3 +361,6 @@ bg-side .content-text {
     width: 100%;
     border-radius: 50px;
 }
+    
+
+
